@@ -184,7 +184,7 @@ var CONFIG = {
 		'amazon': {
 			key: 'amazon', // Must be the same as the object key
 			name: 'Amazon',
-			support: 'in-development', // This skin still requires further improvement, help us by improving it! 
+			support: 'in-development', // This skin still requires further improvement, help us by improving it!
 			hostRegExp: new RegExp('\.amazon\.(co.uk|com|es|de|co.jp)$', 'i'),
 			creators: [ // Who wrote the 80%+ of the skin?
 				{ name: 'Guillermo Muela', link: 'https://github.com/Gmuela' }
@@ -218,14 +218,8 @@ var CONFIG = {
 		'trello': {
 			key: 'trello', // Must be the same as the object key
 			name: 'Trello',
-			support: 'full', // Show a call to action for developers to join our community (don't show it in dev mode)
-			hostRegExp: new RegExp('^trello\.com$', 'i'),
-			creators: [ // Who wrote the 80%+ of the skin?
-				{ name: 'Theis Villumsen', link: 'https://folkmann.it/' }
-			],
-			topContributors: [ // Top 3 contributors of fixes & improvements, excluding the creator
-				{ name: 'John Evans', link: 'https://github.com/jhevans' }
-			]
+			support: 'in-development', // Show a call to action for developers to join our community (don't show it in dev mode)
+			hostRegExp: new RegExp('^trello\.com$', 'i')
 		},
 		'dropbox': {
 			key: 'dropbox', // Must be the same as the object key
@@ -245,6 +239,17 @@ var CONFIG = {
 			hostRegExp: new RegExp('^www\.reddit\.com$', 'i'),
 			creators: [ // Who wrote the 80%+ of the skin?
 				{ name: 'Theis Villumsen', link: 'https://folkmann.it/' }
+			],
+			topContributors: [ // Top 3 contributors of fixes & improvements, excluding the creator
+			]
+		},
+		'wikipedia': {
+			key: 'wikipedia', // Must be the same as the object key
+			name: 'Wikipedia',
+			support: 'in-development', // This skin still requires further improvement, help us by improving it!
+			hostRegExp: new RegExp('^(www|fr|en)\.wikipedia\.org$', 'i'),
+			creators: [ // Who wrote the 80%+ of the skin?
+				{ name: 'Bilal N\'Dao', link: 'https://github.com/bndao' }
 			],
 			topContributors: [ // Top 3 contributors of fixes & improvements, excluding the creator
 			]
